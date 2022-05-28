@@ -71,8 +71,16 @@ p.designation{
     padding-top: 4px;
     border-radius: 50%;
     background-color: rgb(172, 69, 185);
-    color: white;
     margin-left: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+a.social{
+    color: white;
+}
+.social:hover{
+    background-color: yellow;
+    color: blue;
 }
 .card-footer{
     border: 1px solid red;
